@@ -1,0 +1,17 @@
+.images{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 190px;
+  padding-left: 70px;
+  margin-left: 0.5%;
+  width: 40px;
+  height: 20%;
+}
+
+.border{
+    border:solid 1px rgb(0, 4, 250);
+    width: 299px;
+    height: 299px;
+    border-radius: 30px;
+}
